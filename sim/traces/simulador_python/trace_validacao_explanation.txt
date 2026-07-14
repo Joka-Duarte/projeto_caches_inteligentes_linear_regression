@@ -1,0 +1,5 @@
+D 0x00 -> (Compulsório, Miss). A cache guarda o 0x00.
+D 0x20 -> (Compulsório, Miss). A cache guarda o 0x20. A cache encheu.
+D 0x00 -> (Hit). O LRU joga o 0x00 para frente. O 0x20 vira o alvo da expulsão.
+D 0x40 -> (Conflito, Miss). A cache expulsa o 0x20 e guarda o 0x40.
+D 0x20 -> (Miss). Se o seu simulador der HIT aqui, ele está quebrado, pois o 0x20 foi expulso no passo anterior.
